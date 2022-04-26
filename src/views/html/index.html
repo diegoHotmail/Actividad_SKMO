@@ -9,39 +9,61 @@
     <link rel="stylesheet" href="../css/front-modules.css">
     <script type="text/javascript" src="../libs/dependencies.js"></script>
     <script type="module" src="../js/front-dev.js"></script>
+    <script src="https://kit.fontawesome.com/077540dc30.js" crossorigin="anonymous"></script>
     <title>Práctica SKMO</title>
 </head>
 <!-- BODY  -->
 
-<body>
+<body class="body">
     <!-- HEADER  -->
-    <header class="">
-        <h1 class="">Header</h1>
+    <header class="header">
+        <h1 class="header__h1">Header</h1>
         <!-- NAV  -->
-        <nav class="">
+        <nav class="header-nav">
             <!-- LOGO  -->
-            <div class="">
-
+            <div class="nav-logo">
+                <a href="#" class="nav-logo__link">
+                    <p class="nav-logo__p">everis</p>
+                    <p class="nav-logo__p nav-logo__p--negrita">knowler</p>
+                </a>
             </div>
             <!-- SEARCH  -->
-            <div class="">
+            <div class="nav-search">
                 <h1 class="">Buscador</h1>
                 <form class="nav-search__form">
                     <fieldset class="nav-search__fielset">
                         <legend class="nav-search__legend"></legend>
                         <label class="nav-search__label" for="input-search"></label>
-                        <input class="nav-search__input" id="input-search" aria-label="Search" placeholder="What can we help you find?" type="search">
+                        <input class="nav-search__input" id="input-search" aria-label="Search" placeholder="proyecto skm" type="search">
                     </fieldset>
-                    <button type="submit" class="nav-search__button">SEARCH</button>
+                    <button type="submit" class="nav-search__button"></i></button>
                 </form>
             </div>
             <!-- PESTAÑAS  -->
-            <div class="">
-
+            <div class="nav-search-pestanas">
+                <ul class="nav-search__ul">
+                    <li class="nav-search__li"><a class="nav-search__link" href="#"><i class="fa-solid fa-house"></i>Inicio</a></li>
+                    <li class="nav-search__li"><a class="nav-search__link" href="#"><i class="fa-solid fa-table-cells"></i>Aplicaciones</a></li>
+                    <li class="nav-search__li"><a class="nav-search__link" href="#"><i class="fa-solid fa-globe"></i>Comunidades</a></li>
+                    <li class="nav-search__li">
+                        <a class="nav-search__link" href="#">
+                            <figure class="nav-search__figure">
+                                <img class="nav-search__img" alt="everis" src="src\assets\images\everis-570x570.png">
+                            </figure>everPedia</a>
+                    </li>
+                </ul>
             </div>
             <!-- PERFIL  -->
-            <div class="">
-
+            <div class="nav-perfil">
+                <div class="nav-perfil-notificacion">
+                    <a class="nav-perfil-user__link" href="#"><i class="fa-solid fa-bell"></i></a>
+                </div>
+                <figure class="nav-perfil__figure">
+                    <img class="nav-perfil__img" alt="Perfil" src="src\assets\images\ninjaseed.png">
+                </figure>
+                <div class="nav-perfil-nenu">
+                    <a class="nav-perfil-user__link" href="#"><i class="fa-solid fa-caret-down"></i></a>
+                </div>
             </div>
         </nav>
     </header>
