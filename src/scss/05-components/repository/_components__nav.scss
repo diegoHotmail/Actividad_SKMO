@@ -1,0 +1,17 @@
+.header {
+    background-color: blue;
+    &-nav {
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        &-logo {
+            background-color: bisque;
+            &__p {
+                background-color: blueviolet;
+            }
+            &__p--negrita {
+                background-color: coral;
+            }
+        }
+    }
+}

@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/front-modules.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <script type="text/javascript" src="../libs/dependencies.js"></script>
     <script type="module" src="../js/front-dev.js"></script>
-    <script src="https://kit.fontawesome.com/077540dc30.js" crossorigin="anonymous"></script>
     <title>Práctica SKMO</title>
 </head>
 <!-- BODY  -->
@@ -17,52 +17,52 @@
 <body class="body">
     <!-- HEADER  -->
     <header class="header">
-        <h1 class="header__h1">Header</h1>
+        <h1 class="header__h1 hide-accessible">Header</h1>
         <!-- NAV  -->
         <nav class="header-nav">
             <!-- LOGO  -->
-            <div class="nav-logo">
-                <a href="#" class="nav-logo__link">
-                    <p class="nav-logo__p">everis</p>
-                    <p class="nav-logo__p nav-logo__p--negrita">knowler</p>
+            <div class="header-nav-logo">
+                <a href="#" class="header-nav-logo__link">
+                    <p class="header-nav-logo__p">everis</p>
+                    <p class="header-nav-logo__p header-nav-logo__p--negrita">knowler</p>
                 </a>
             </div>
             <!-- SEARCH  -->
-            <div class="nav-search">
+            <div class="header-nav-search">
                 <h1 class="">Buscador</h1>
-                <form class="nav-search__form">
-                    <fieldset class="nav-search__fielset">
-                        <legend class="nav-search__legend"></legend>
-                        <label class="nav-search__label" for="input-search"></label>
-                        <input class="nav-search__input" id="input-search" aria-label="Search" placeholder="proyecto skm" type="search">
+                <form class="header-nav-search__form">
+                    <fieldset class="header-nav-search__fielset">
+                        <legend class="header-nav-search__legend"></legend>
+                        <label class="header-nav-search__label" for="input-search"></label>
+                        <input class="header-nav-search__input" id="input-search" aria-label="Search" placeholder="proyecto skm" type="search">
                     </fieldset>
-                    <button type="submit" class="nav-search__button"></i></button>
+                    <button type="submit" class="header-nav-search__button"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
             </div>
             <!-- PESTAÑAS  -->
-            <div class="nav-search-pestanas">
-                <ul class="nav-search__ul">
-                    <li class="nav-search__li"><a class="nav-search__link" href="#"><i class="fa-solid fa-house"></i>Inicio</a></li>
-                    <li class="nav-search__li"><a class="nav-search__link" href="#"><i class="fa-solid fa-table-cells"></i>Aplicaciones</a></li>
-                    <li class="nav-search__li"><a class="nav-search__link" href="#"><i class="fa-solid fa-globe"></i>Comunidades</a></li>
-                    <li class="nav-search__li">
+            <div class="header-nav-search-pestanas">
+                <ul class="header-nav-search__ul">
+                    <li class="header-nav-search__li"><a class="header-nav-search__link" href="#"><i class="fa-solid fa-house"></i>Inicio</a></li>
+                    <li class="header-nav-search__li"><a class="header-nav-search__link" href="#"><i class="fa-solid fa-table-cells"></i>Aplicaciones</a></li>
+                    <li class="header-nav-search__li"><a class="header-nav-search__link" href="#"><i class="fa-solid fa-globe"></i>Comunidades</a></li>
+                    <li class="header-nav-search__li">
                         <a class="nav-search__link" href="#">
-                            <figure class="nav-search__figure">
-                                <img class="nav-search__img" alt="everis" src="src\assets\images\everis-570x570.png">
+                            <figure class="header-nav-search__figure">
+                                <img class="header-nav-search__img" alt="everis" src="../../assets/images/everis-570x570.png">
                             </figure>everPedia</a>
                     </li>
                 </ul>
             </div>
             <!-- PERFIL  -->
-            <div class="nav-perfil">
-                <div class="nav-perfil-notificacion">
-                    <a class="nav-perfil-user__link" href="#"><i class="fa-solid fa-bell"></i></a>
+            <div class="header-nav-perfil">
+                <div class="header-nav-perfil-notificacion">
+                    <a class="header-nav-perfil-user__link" href="#"><i class="fa-solid fa-bell"></i></a>
                 </div>
-                <figure class="nav-perfil__figure">
-                    <img class="nav-perfil__img" alt="Perfil" src="src\assets\images\ninjaseed.png">
+                <figure class="header-nav-perfil__figure">
+                    <img class="header-nav-perfil__img" alt="Perfil" src="../../assets/images/ninjaseed.png">
                 </figure>
-                <div class="nav-perfil-nenu">
-                    <a class="nav-perfil-user__link" href="#"><i class="fa-solid fa-caret-down"></i></a>
+                <div class="header-nav-perfil-nenu">
+                    <a class="header-nav-perfil-user__link" href="#"><i class="fa-solid fa-caret-down"></i></a>
                 </div>
             </div>
         </nav>
@@ -71,7 +71,7 @@
     <main class="">
         <!-- SECTION EVENTOS  -->
         <section class="">
-            <h1 class="">Eventos</h1>
+            <h1 class="hide-accessible">Eventos</h1>
             <!-- CABEZA  -->
             <div class="">
 
@@ -87,7 +87,7 @@
         </section>
         <!-- SECTION MAILS  -->
         <section class="">
-            <h1 class="">Correos</h1>
+            <h1 class="hide-accessible">Correos</h1>
             <!-- CABEZA  -->
             <div class="">
 
@@ -103,7 +103,7 @@
         </section>
         <!-- SECTION MIS CONTACTOS  -->
         <section class="">
-            <h1 class="">Contactos</h1>
+            <h1 class="hide-accessible">Contactos</h1>
             <!-- CABEZA  -->
             <div class="">
 
@@ -119,7 +119,7 @@
         </section>
         <!-- SECTION NOTIFICACIONES  -->
         <section class="">
-            <h1 class="">Notificaciones</h1>
+            <h1 class="hide-accessible">Notificaciones</h1>
             <!-- CABEZA  -->
             <div class="">
 
@@ -135,7 +135,7 @@
         </section>
         <!-- SECTION PROYECTOS  -->
         <section class="">
-            <h1 class="">Proyectos</h1>
+            <h1 class="hide-accessible">Proyectos</h1>
             <!-- CABEZA  -->
             <div class="">
 

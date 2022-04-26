@@ -20,7 +20,6 @@
 @import '00-settings/_settings__grid-reflex';
 @import '00-settings/_settings__trumps';
 @import '00-settings/_settings__objects';
-
 //*----------------------------------------------------------
 //    # TOOLS
 //----------------------------------------------------------*/
@@ -74,12 +73,10 @@
 @import '04-objects/_objects__table';
 @import '04-objects/_objects__title';
 @import '04-objects/_objects__txt';
-
 // /*----------------------------------------------------------
 //     # COMPONENTS
 // ----------------------------------------------------------*/   
 @import '05-components/_components__example.scss';
-
 // /*----------------------------------------------------------
 //     # COMPONENTS REPOSITORY
 // ----------------------------------------------------------*/
@@ -88,7 +85,7 @@
 @import '05-components/repository/_components__repository.scss';
 @import '05-components/repository/_components__sidebar.scss';
 @import '05-components/repository/_components__header.scss';
-
+@import '05-components/repository/_components__nav.scss';
 //*----------------------------------------------------------
 //     # TRUMPS
 // ----------------------------------------------------------*/
