@@ -18,54 +18,52 @@
     <!-- HEADER  -->
     <header class="header">
         <h1 class="header__h1 hide-accessible">Header</h1>
+        <!-- LOGO  -->
+        <div class="header-logo">
+            <a href="#" class="header-logo__link">
+                <p class="header-logo__p">everis</p>
+                <p class="header-logo__p header-logo__p--negrita">knowler</p>
+            </a>
+        </div>
+        <!-- SEARCH  -->
+        <div class="header-search">
+            <h1 class="header-search__h1 hide-accessible">Buscador</h1>
+            <form class="header-search__form">
+                <fieldset class="header-search__fielset">
+                    <legend class="header-search__legend"></legend>
+                    <label class="heade-search__label" for="input-search"></label>
+                    <input class="header-search__input" id="input-search" aria-label="Search" placeholder="proyecto skm" type="search">
+                </fieldset>
+                <button type="submit" class="header-search__button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
         <!-- NAV  -->
         <nav class="header-nav">
-            <!-- LOGO  -->
-            <div class="header-nav-logo">
-                <a href="#" class="header-nav-logo__link">
-                    <p class="header-nav-logo__p">everis</p>
-                    <p class="header-nav-logo__p header-nav-logo__p--negrita">knowler</p>
-                </a>
-            </div>
-            <!-- SEARCH  -->
-            <div class="header-nav-search">
-                <h1 class="header-nav-search__h1 hide-accessible">Buscador</h1>
-                <form class="header-nav-search__form">
-                    <fieldset class="header-nav-search__fielset">
-                        <legend class="header-nav-search__legend"></legend>
-                        <label class="header-nav-search__label" for="input-search"></label>
-                        <input class="header-nav-search__input" id="input-search" aria-label="Search" placeholder="proyecto skm" type="search">
-                    </fieldset>
-                    <button type="submit" class="header-nav-search__button"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>
-            </div>
-            <!-- PESTAÑAS  -->
-            <div class="header-nav-pestanas">
-                <ul class="header-nav-pestanas__ul">
-                    <li class="header-nav-pestanas__li"><a class="header-nav-pestanas__link" href="#"><i class="fa-solid fa-house"></i>Inicio</a></li>
-                    <li class="header-nav-pestanas__li"><a class="header-nav-pestanas__link" href="#"><i class="fa-solid fa-table-cells"></i>Aplicaciones</a></li>
-                    <li class="header-nav-pestanas__li"><a class="header-nav-pestanas__link" href="#"><i class="fa-solid fa-globe"></i>Comunidades</a></li>
-                    <li class="header-nav-pestanas__li">
-                        <a class="nav-pestanas__link" href="#">
-                            <figure class="header-nav-pestanas__figure">
-                                <img class="header-nav-pestanas__img" alt="everis" src="../../assets/images/everis-570x570.png">
-                            </figure>everPedia</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- PERFIL  -->
-            <div class="header-nav-perfil">
-                <div class="header-nav-perfil-notificacion">
-                    <a class="header-nav-perfil-notificacion__link" href="#"><i class="fa-solid fa-bell"></i></a>
-                </div>
-                <figure class="header-nav-perfil__figure">
-                    <img class="header-nav-perfil-figure__img" alt="Perfil" src="../../assets/images/ninjaseed.png">
-                </figure>
-                <div class="header-nav-perfil-menu">
-                    <a class="header-nav-perfil__link" href="#"><i class="fa-solid fa-caret-down"></i></a>
-                </div>
-            </div>
+            <ul class="header-nav__ul">
+                <li class="header-nav__li"><a class="header-nav__link" href="#"><i class="fa-solid fa-house header-nav__icon"></i><p class="header-nav__p">Inicio</p></a></li>
+                <li class="header-nav__li"><a class="header-nav__link" href="#"><i class="fa-solid fa-table-cells header-nav__icon"></i><p class="header-nav__p">Aplicaciones</p></a></li>
+                <li class="header-nav__li"><a class="header-nav__link" href="#"><i class="fa-solid fa-globe header-nav__icon"></i><p class="header-nav__p">Comunidades</p></a></li>
+                <li class="header-nav__li">
+                    <a class="header-nav__link" href="#">
+                        <figure class="header-nav__figure">
+                            <img class="header-nav__img" alt="everis" src="../../assets/images/everis-570x570.png">
+                        </figure>
+                        <p class="header-nav__p">everPedia</p>
+                    </a>
+                </li>
+            </ul>
         </nav>
+        <!-- PERFIL  -->
+        <div class="header-perfil">
+            <div class="header-perfil-notificacion">
+                <a class="header-perfil-notificacion__link" href="#"><i class="fa-solid fa-bell"></i></a>
+            </div>
+            <figure class="header-perfil__figure">
+            </figure>
+            <div class="header-perfil-menu">
+                <a class="header-perfil__link" href="#"><i class="fa-solid fa-caret-down"></i></a>
+            </div>
+        </div>
     </header>
     <!-- MAIN  -->
     <main class="">
