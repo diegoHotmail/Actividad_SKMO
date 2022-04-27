@@ -13,5 +13,34 @@
                 background-color: coral;
             }
         }
+        &-search {
+            &__h1 {}
+            &__form {}
+            &__fieldset {}
+            &__legend {}
+            &__label {}
+            &__input {}
+            &__button {}
+        }
+        &-pestanas {
+            &__ul {}
+            &__li {}
+            &__link {}
+            &__figure {}
+            &__img {
+                background-color: blue;
+            }
+        }
+        &-perfil {
+            &-notificacion {
+                &__link {}
+            }
+            &__figure {
+                &__img {}
+            }
+            &-menu {
+                &__link {}
+            }
+        }
     }
 }
