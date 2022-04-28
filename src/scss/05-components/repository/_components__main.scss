@@ -1,17 +1,16 @@
-@media only screen and (min-width: 1280px) {
-    // SECTION EVENTOS
-    .main {
-        background-image: linear-gradient(to left, #849503, #4479AF 65%);
-        &__img {
-            background-image: url(../../../assets/images/sidebar-wall.png);
-            opacity: 0.8;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
+// MAIN
+.main {
+    background-image: linear-gradient(to left, #849503, #4479AF 65%);
+    &__img {
+        background-image: url(../../../assets/images/sidebar-wall.png);
+        opacity: 0.8;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 40px 10px
     }
 }
