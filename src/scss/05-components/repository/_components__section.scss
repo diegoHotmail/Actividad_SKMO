@@ -1,29 +1,75 @@
 @media only screen and (min-width: 1280px) {
     // SECTION EVENTOS
     .main__section {
-        background-color: aqua;
-        width: 250px;
+        width: 300px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 10px;
     }
     .main__h1 {}
     .main-head {
-        &__p {}
-        &__icon {}
+        background-color: #4366A6;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &__p {
+            font-size: 15px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin: 15px 0px;
+        }
+        &__icon {
+            color: #FFFFFF;
+            font-size: 15px;
+            margin: 10px 15px;
+            &--right {
+                justify-self: flex-end;
+            }
+        }
     }
     .main-main {
-        &__ul {}
-        &__li {}
-        &__p {}
+        background-color: #FFFFFF;
+        &__ul {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+        &__li {
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+        }
+        &-hora {
+            background-color: #4366A6;
+            border-radius: 100%;
+            width: 60px;
+            height: 60px;
+        }
+        &__p {
+            text-transform: uppercase;
+            color: #4366A6;
+        }
         &-apunte {
-            &__link {}
+            &__link {
+                color: #4366A6;
+                text-decoration: overline;
+            }
             &__p {
-                &p--hora {}
+                &p--hora {
+                    color: #555555;
+                }
             }
         }
         &-hora {
             &__p {}
         }
     }
-    .main.footer {
+    .main-footer {
+        background-color: #FFFFFF;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
         &__p {}
         &__link {}
         &__icon {}
