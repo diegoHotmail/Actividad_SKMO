@@ -1,4 +1,8 @@
-// SECTION EVENTOS
+// SECTION 
+// Variables
+$colorAzul: #4366A6;
+$colorGris: #515151;
+$colorBlanco: #FFFFFF;
 .main__section {
     &--center {
         width: 600px
@@ -12,7 +16,7 @@
 .main__h1 {}
 
 .main-head {
-    background-color: #4366A6;
+    background-color: $colorAzul;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     display: flex;
@@ -23,11 +27,11 @@
     &__p {
         font-size: 13px;
         text-transform: uppercase;
-        color: #FFFFFF;
+        color: $colorBlanco;
         margin: 18px 0px;
     }
     &__icon {
-        color: #FFFFFF;
+        color: $colorBlanco;
         font-size: 15px;
         margin: 10px 15px;
         &--right {
@@ -37,12 +41,12 @@
 }
 
 .main-main {
-    background-color: #FFFFFF;
+    background-color: $colorBlanco;
     &__ul {
         padding: 18px 18px 5px 18px;
         display: flex;
         flex-direction: column;
-        border-bottom: solid 1px #515151
+        border-bottom: solid 1px $colorGris;
     }
     &__li {
         display: flex;
@@ -51,12 +55,12 @@
     }
     &__p {
         text-transform: uppercase;
-        color: #4366A6;
+        color: $colorAzul;
         font-size: 12px;
         font-weight: 600;
     }
     &-hora {
-        background-color: #4366A6;
+        background-color: $colorAzul;
         border-radius: 100%;
         width: 45px;
         height: 45px;
@@ -64,17 +68,17 @@
         align-items: center;
         justify-content: center;
         &__p {
-            color: #FFFFFF;
+            color: $colorBlanco;
         }
     }
     &-apunte {
         padding: 7px 10px;
         &__link {}
         &__p {
-            color: #4366A6;
+            color: $colorAzul;
             text-decoration: underline;
             &--hora {
-                color: #515151;
+                color: $colorGris;
                 font-size: 13px;
                 padding-top: 5px;
             }
@@ -86,7 +90,7 @@
 }
 
 .main-footer {
-    background-color: #FFFFFF;
+    background-color: $colorBlanco;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     display: flex;
@@ -95,7 +99,7 @@
     align-items: center;
     &__p {
         padding: 14px 0;
-        color: #4366A6;
+        color: $colorAzul;
     }
     &__link {}
     &__icon {}
