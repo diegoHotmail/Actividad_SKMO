@@ -18,6 +18,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 7px 11px;
+    height: 55px;
     &__p {
         font-size: 13px;
         text-transform: uppercase;
@@ -37,9 +39,10 @@
 .main-main {
     background-color: #FFFFFF;
     &__ul {
-        padding: 15px;
+        padding: 18px 18px 5px 18px;
         display: flex;
         flex-direction: column;
+        border-bottom: solid 1px #515151
     }
     &__li {
         display: flex;
@@ -55,8 +58,8 @@
     &-hora {
         background-color: #4366A6;
         border-radius: 100%;
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -65,7 +68,7 @@
         }
     }
     &-apunte {
-        padding: 10px;
+        padding: 7px 10px;
         &__link {}
         &__p {
             color: #4366A6;
@@ -73,6 +76,7 @@
             &--hora {
                 color: #515151;
                 font-size: 13px;
+                padding-top: 5px;
             }
         }
     }
@@ -85,7 +89,14 @@
     background-color: #FFFFFF;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    &__p {}
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    &__p {
+        padding: 14px 0;
+        color: #4366A6;
+    }
     &__link {}
     &__icon {}
 }
