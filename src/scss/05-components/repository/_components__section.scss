@@ -2,6 +2,7 @@
 // Variables
 $colorAzul: #4366A6;
 $colorGris: #515151;
+$colorGrisLinea: #E0E1E4;
 $colorBlanco: #FFFFFF;
 .main__section {
     &--center {
@@ -46,7 +47,49 @@ $colorBlanco: #FFFFFF;
         padding: 18px 18px 5px 18px;
         display: flex;
         flex-direction: column;
-        border-bottom: solid 1px $colorGris;
+        border-bottom: solid 1px $colorGrisLinea;
+    }
+    &-ul {
+        &-li {
+            &__li {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                color: $colorGris;
+                font-size: 13px;
+                padding-top: 5px;
+            }
+            &__figure {
+                border-radius: 100%;
+                border: 2px solid $colorBlanco;
+                width: 25px;
+                height: 25px;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                &--1 {
+                    background-image: url(../../../assets/images/v3_0332798.jpg);
+                }
+                &--2 {
+                    background-image: url(../../../assets/images/v3_0407433.jpg);
+                }
+                &--3 {
+                    background-image: url(../../../assets/images/v3_0454666.jpg);
+                }
+            }
+            &__p {
+                font-size: 11px;
+                &--enunciado {
+                    color: $colorAzul;
+                    text-decoration: underline;
+                }
+            }
+        }
+        &__li {
+            border-bottom: solid 1px #E0E1E4;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+        }
     }
     &__li {
         display: flex;
