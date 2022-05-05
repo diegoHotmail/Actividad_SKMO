@@ -7,6 +7,8 @@
     $colorBlanco: #FFFFFF;
     $colorAzulNav:#E3E8F2;
     $colorAzulLetras:#4479AF;
+    $colorCheck: #A8B061;
+    $colorExclamacion: #F5A623;
     .main__section {
         &--center {
             width: 600px
@@ -105,6 +107,10 @@
             display: flex;
             flex-direction: row;
             padding: 8px;
+            border-bottom: solid 1px $colorGrisLinea;
+            &--sinlinea {
+                border-bottom: none;
+            }
             &--center {
                 align-items: center;
                 border-bottom: solid 1px $colorGrisLinea;
@@ -191,11 +197,37 @@
             margin-left: 8px;
         }
         &-div {
+            display: flex;
+            justify-content: space-between;
             &__p {
                 &--enunciado {
                     color: $colorAzul;
                     text-decoration: underline;
                     font-weight: bold;
+                }
+                &--bold {
+                    width: 75%;
+                    font-weight: bold;
+                    color: $colorGris;
+                }
+                &--noti {
+                    margin: 4px 0;
+                }
+                &--small {
+                    font-size: 12px;
+                }
+            }
+            &__icon {
+                color: $colorCheck;
+                font-size: 20px;
+            }
+            &__figure {
+                color: $colorExclamacion;
+                font-size: 10px;
+            }
+            &__div {
+                &--exc {
+                    display: flex;
                 }
             }
         }

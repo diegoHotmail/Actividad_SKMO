@@ -6,13 +6,20 @@
     background-repeat: no-repeat;
     &__trans {
         background-image: linear-gradient(to left, hsla(66, 96, 29, 0.2), hsla(210, 44, 47, 0.2) 65%);
+        width: 100%;
         &--degra {
             background-image: linear-gradient(to top, hsla(220, 15, 96, 1), rgba(255, 0, 0, 0) 45%);
+            width: 100%;
+            padding-top: 35px;
             display: flex;
-            align-items: flex-start;
-            justify-content: space-around;
+            flex-direction: row;
+            justify-content: center;
             flex-wrap: wrap;
-            padding: 43px 10px;
         }
+    }
+    &__col {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 5px;
     }
 }
