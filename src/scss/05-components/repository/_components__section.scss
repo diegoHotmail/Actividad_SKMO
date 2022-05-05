@@ -214,6 +214,7 @@
                     margin: 4px 0;
                 }
                 &--small {
+                    margin-left: 5px;
                     font-size: 12px;
                 }
             }
@@ -228,6 +229,8 @@
             &__div {
                 &--exc {
                     display: flex;
+                    align-items: center;
+                    margin-bottom: 5px;
                 }
             }
         }
@@ -267,5 +270,7 @@
             color: $colorAzul;
         }
         &__link {}
-        &__icon {}
+        &__icon {
+            margin-left: 2px;
+        }
     }
