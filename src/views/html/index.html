@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <script type="text/javascript" src="../libs/dependencies.js"></script>
     <script type="module" src="../js/front-dev.js"></script>
+    <script src=”prefixfree.min.js” type="text/javascript"></script>
     <title>Práctica SKMO</title>
 </head>
 <!-- BODY  -->
@@ -75,8 +76,10 @@
                         <h1 class="main__h1 hide-accessible">Eventos</h1>
                         <!-- CABEZA  -->
                         <div class="main-head">
-                            <i class="fa-solid fa-calendar-days main-head__icon"></i>
-                            <p class="main-head__p">Eventos</p>
+                            <div class="main-head__div">
+                                <i class="fa-solid fa-calendar-days main-head__icon"></i>
+                                <p class="main-head__p">Eventos</p>
+                            </div>
                             <a href="" class=""><i class="fa-solid fa-ellipsis-vertical main-head__icon main-head__icon--right"></i></a>
                         </div>
                         <!-- CUERPO  -->
@@ -134,14 +137,16 @@
                         <h1 class="main__h1 hide-accessible">Notificaciones</h1>
                         <!-- CABEZA  -->
                         <div class="main-head">
-                            <i class="fa-solid fa-bell main-head__icon"></i>
-                            <p class="main-head__p">Notificaciones</p>
+                            <div class="main-head__div">
+                                <i class="fa-solid fa-bell main-head__icon"></i>
+                                <p class="main-head__p">Notificaciones</p>
+                            </div>
                             <a href="" class=""><i class="fa-solid fa-ellipsis-vertical main-head__icon main-head__icon--right"></i></a>
                         </div>
                         <!-- CUERPO  -->
                         <div class="main-main">
                             <ul class="main-main__ul">
-                                <li class="main-main__li">
+                                <li class="main-main__li main-main__li--noti">
                                     <div class="main-main-div">
                                         <div class="main-main-div__div">
                                             <p class="main-main-div__p main-main-div__p--bold">Actualizar benchmark perfiles en proyecto</p>
@@ -154,7 +159,7 @@
                                         <i class="fa-solid fa-square-check main-main-div__icon"></i>
                                     </div>
                                 </li>
-                                <li class="main-main__li">
+                                <li class="main-main__li main-main__li--noti">
                                     <div class="main-main-div">
                                         <div class="main-main-div__div">
                                             <p class="main-main-div__p main-main-div__p--bold">Actualizar documentos</p>
@@ -167,7 +172,7 @@
                                         <i class="fa-solid fa-square-check main-main-div__icon"></i>
                                     </div>
                                 </li>
-                                <li class="main-main__li">
+                                <li class="main-main__li main-main__li--noti">
                                     <div class="main-main-div">
                                         <div class="main-main-div__div">
                                             <p class="main-main-div__p main-main-div__p--bold">Actualizar documentos</p>
@@ -195,8 +200,10 @@
                         <h1 class="main__h1 hide-accessible">Mails</h1>
                         <!-- CABEZA  -->
                         <div class="main-head">
-                            <i class="fa-solid fa-envelope main-head__icon"></i>
-                            <p class="main-head__p">Mails</p>
+                            <div class="main-head__div">
+                                <i class="fa-solid fa-envelope main-head__icon"></i>
+                                <p class="main-head__p">Mails</p>
+                            </div>
                             <a href="" class=""><i class="fa-solid fa-ellipsis-vertical main-head__icon main-head__icon--right"></i></a>
                         </div>
                         <!-- CUERPO  -->
@@ -267,8 +274,10 @@
                         <h1 class="main__h1 hide-accessible">Proyectos</h1>
                         <!-- CABEZA  -->
                         <div class="main-head">
-                            <i class="fa-solid fa-folder-open main-head__icon"></i>
-                            <p class="main-head__p">Proyectos</p>
+                            <div class="main-head__div">
+                                <i class="fa-solid fa-folder-open main-head__icon"></i>
+                                <p class="main-head__p">Proyectos</p>
+                            </div>
                             <a href="" class=""><i class="fa-solid fa-ellipsis-vertical main-head__icon main-head__icon--right"></i></a>
                         </div>
 
@@ -338,8 +347,10 @@
                         <h1 class="main__h1 hide-accessible">Contactos</h1>
                         <!-- CABEZA  -->
                         <div class="main-head">
-                            <i class="fa-solid fa-users-line main-head__icon"></i>
-                            <p class="main-head__p">Mis contactos</p>
+                            <div class="main-head__div">
+                                <i class="fa-solid fa-users-line main-head__icon"></i>
+                                <p class="main-head__p">Mis contactos</p>
+                            </div>
                             <a href="" class=""><i class="fa-solid fa-ellipsis-vertical main-head__icon main-head__icon--right"></i></a>
                         </div>
 
