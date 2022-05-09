@@ -110,3 +110,39 @@ $colorBlanco: white;
         }
     }
 }
+
+// Estilos para tamaño 1024
+@media (max-width: 1024px) {
+    // Estilos para el header
+    .header {
+        &-search {
+            &__fieldset {
+                background-color: blue;
+                width: 200px;
+            }
+            &__input {
+                width: 25rem;
+            }
+        }
+    }
+}
+
+// Estilos para tamaño 600
+@media (max-width: 600px) {
+    // Estilos para el header
+    .header {
+        &__fieldset {
+            width: 200px;
+        }
+    }
+}
+
+// Estilos para tamaño 320
+@media (max-width: 320px) {
+    // Estilos para el header
+    .header {
+        &__fieldset {
+            width: 200px;
+        }
+    }
+}
