@@ -366,9 +366,7 @@
     @media (max-width: 600px) {
         // Estilos generales para las secciones
         .main__section {
-            &--center {
-                width: 290px
-            }
+            width: 270px;
         }
     }
     
@@ -376,8 +374,6 @@
     @media (max-width: 320px) {
         // Estilos generales para las secciones
         .main__section {
-            &--center {
-                width: 290px
-            }
+            width: 270px;
         }
     }
