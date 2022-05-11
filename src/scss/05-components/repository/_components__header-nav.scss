@@ -13,12 +13,18 @@ $colorBlanco: white;
             display: none;
         }
     }
+    &-ek {
+        display: none;
+    }
     &-logo {
         padding: 28px 0px 28px 0px;
         padding-left: 9px;
         &__link {
             display: flex;
             flex-direction: row;
+        }
+        &__logo {
+            display: none;
         }
         &__p {
             color: $colorBlanco;
@@ -201,6 +207,14 @@ $colorBlanco: white;
                 color: white;
                 padding: 5px 15px 0 0;
                 font-size: 30px;
+            }
+        }
+        background-color: blue;
+        &-ek {
+            display: inline;
+            &__logo {
+                display: inline;
+                background-image: url(../../../assets/images/Logo_eK.png);
             }
         }
         &-logo {
