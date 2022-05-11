@@ -366,7 +366,15 @@
     @media (max-width: 600px) {
         // Estilos generales para las secciones
         .main__section {
-            width: 270px;
+            width: 273px;
+            margin: 10px 7px;
+        }
+        .main-head {
+            &__icon {
+                &--mail {
+                    margin-right: 11px;
+                }
+            }
         }
     }
     

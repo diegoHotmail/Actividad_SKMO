@@ -35,3 +35,14 @@
         }
     }
 }
+
+// Estilos para tamaño 600px
+@media (max-width: 600px) {
+    .main {
+        &__trans {
+            &--degra {
+                padding-top: 11px;
+            }
+        }
+    }
+}
