@@ -29,15 +29,14 @@ $colorBlanco: white;
         }
     }
     &-search {
-        margin: 0 15px;
-        width: 31%;
+        margin-left: 32px;
         &__h1 {}
         &__form {
             display: flex;
             flex-direction: row;
         }
         &__fieldset {
-            width: 100%;
+            width: 40%;
         }
         &__legend {}
         &__label {}
@@ -122,12 +121,19 @@ $colorBlanco: white;
     // Estilos para el header
     .header {
         &-search {
-            &__fieldset {
-                background-color: blue;
-                width: 200px;
+            margin: 0 17px;
+            width: 32%;
+            &__form {
+                padding-left: 12px
+            }
+            &__fielset {
+                width: 100%;
             }
             &__input {
                 width: 100%;
+            }
+            &__button {
+                margin-right: 0;
             }
         }
     }
