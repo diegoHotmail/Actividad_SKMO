@@ -202,25 +202,31 @@ $colorBlanco: white;
     // Estilos para el header
     .header {
         &-hambur {
+            padding-left: 17px;
             &__button {
                 display: block;
                 color: white;
-                padding: 5px 15px 0 0;
-                font-size: 30px;
+                padding: 13px 15px 15px 0;
+                font-size: 25px;
             }
         }
-        background-color: blue;
         &-ek {
             display: inline;
             &__logo {
                 display: inline;
-                background-image: url(../../../assets/images/Logo_eK.png);
+                width: 41px;
+                height: 35px;
+                background-image: url(../../../assets/images/Logo_eK_Recorte.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
             }
         }
         &-logo {
             display: none;
         }
         &-search {
+            padding-left: 74px;
             &__fielset {
                 display: none;
             }
@@ -233,6 +239,13 @@ $colorBlanco: white;
         }
         &-nav {
             display: none;
+        }
+        &-perfil {
+            &-notificacion {
+                &__link {
+                    margin: 11px;
+                }
+            }
         }
     }
 }
